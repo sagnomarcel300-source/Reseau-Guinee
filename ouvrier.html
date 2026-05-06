@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ouvrier - Réseaux Guinée</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="hero hero-small">
+        <nav class="nav">
+            <a href="index.html" class="logo">Réseaux Guinée</a>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="client.html">Client</a></li>
+                <li><a href="ouvrier.html">Ouvrier</a></li>
+                <li><a href="client.html#worker-grid">Voir ouvriers</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <span class="eyebrow">Ouvrier</span>
+            <h1>Inscris ton profil d’ouvrier</h1>
+            <p>Partage tes compétences, ton expérience et tes réalisations pour que les clients te trouvent vite.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section form-section">
+            <div class="container form-card">
+                <h2>Formulaire d’inscription</h2>
+                <form id="registration-form">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" placeholder="Ton nom complet" required />
+
+                    <label for="metier">Métier</label>
+                    <select id="metier" name="metier" required>
+                        <option value="">Sélectionner un métier</option>
+                        <option value="Aide-maçon">Aide-maçon</option>
+                        <option value="Aide-peintre">Aide-peintre</option>
+                        <option value="Aide-charpentier">Aide-charpentier</option>
+                        <option value="Aide-plombier">Aide-plombier</option>
+                        <option value="Briqueteur">Briqueteur</option>
+                        <option value="Carreleur">Carreleur</option>
+                        <option value="Charpentier">Charpentier</option>
+                        <option value="Couvreur">Couvreur</option>
+                        <option value="Électricien">Électricien</option>
+                        <option value="Ébéniste">Ébéniste</option>
+                        <option value="Ferronnier">Ferronnier</option>
+                        <option value="Forgeron">Forgeron</option>
+                        <option value="Frigoriste">Frigoriste</option>
+                        <option value="Jardinier paysagiste">Jardinier paysagiste</option>
+                        <option value="Maçon">Maçon</option>
+                        <option value="Maçon-ornemaniste">Maçon-ornemaniste</option>
+                        <option value="Menuisier">Menuisier</option>
+                        <option value="Mécanicien automobile">Mécanicien automobile</option>
+                        <option value="Mécanicien agricole">Mécanicien agricole</option>
+                        <option value="Mécanicien maintenance industrielle">Mécanicien maintenance industrielle</option>
+                        <option value="Monteur en structures métalliques">Monteur en structures métalliques</option>
+                        <option value="Monteur-électricien">Monteur-électricien</option>
+                        <option value="Ouvrier agricole">Ouvrier agricole</option>
+                        <option value="Peintre">Peintre</option>
+                        <option value="Paysagiste">Paysagiste</option>
+                        <option value="Plâtrier">Plâtrier</option>
+                        <option value="Plombier">Plombier</option>
+                        <option value="Poseur de revêtement">Poseur de revêtement</option>
+                        <option value="Poseur de toiture">Poseur de toiture</option>
+                        <option value="Serrurier">Serrurier</option>
+                        <option value="Soudeur">Soudeur</option>
+                        <option value="Tapissier">Tapissier</option>
+                        <option value="Technicien en télécommunications">Technicien en télécommunications</option>
+                        <option value="Technicien en réseaux">Technicien en réseaux</option>
+                        <option value="Technicien frigoriste">Technicien frigoriste</option>
+                        <option value="Conducteur d’engins">Conducteur d’engins</option>
+                        <option value="Réparateur électroménager">Réparateur électroménager</option>
+                        <option value="Autre">Autre</option>
+                    </select>
+
+                    <label for="region">Région administrative</label>
+                    <select id="region" name="region" required>
+                        <option value="">Sélectionner une région</option>
+                        <option value="Conakry">Conakry</option>
+                        <option value="Boké">Boké</option>
+                        <option value="Kindia">Kindia</option>
+                        <option value="Labé">Labé</option>
+                        <option value="Mamou">Mamou</option>
+                        <option value="Faranah">Faranah</option>
+                        <option value="Kankan">Kankan</option>
+                        <option value="Nzérékoré">Nzérékoré</option>
+                    </select>
+
+                    <label for="prefecture">Préfecture</label>
+                    <select id="prefecture" name="prefecture" required>
+                        <option value="">Sélectionner une préfecture</option>
+                        <option value="Conakry">Conakry</option>
+                        <option value="Boffa">Boffa</option>
+                        <option value="Boké">Boké</option>
+                        <option value="Fria">Fria</option>
+                        <option value="Gaoual">Gaoual</option>
+                        <option value="Coyah">Coyah</option>
+                        <option value="Dubréka">Dubréka</option>
+                        <option value="Forécariah">Forécariah</option>
+                        <option value="Kindia">Kindia</option>
+                        <option value="Télimélé">Télimélé</option>
+                        <option value="Dalaba">Dalaba</option>
+                        <option value="Mamou">Mamou</option>
+                        <option value="Pita">Pita</option>
+                        <option value="Koubia">Koubia</option>
+                        <option value="Labé">Labé</option>
+                        <option value="Lélouma">Lélouma</option>
+                        <option value="Mali">Mali</option>
+                        <option value="Tougué">Tougué</option>
+                        <option value="Dinguiraye">Dinguiraye</option>
+                        <option value="Faranah">Faranah</option>
+                        <option value="Kissidougou">Kissidougou</option>
+                        <option value="Dabola">Dabola</option>
+                        <option value="Kankan">Kankan</option>
+                        <option value="Kérouané">Kérouané</option>
+                        <option value="Kouroussa">Kouroussa</option>
+                        <option value="Mandiana">Mandiana</option>
+                        <option value="Siguiri">Siguiri</option>
+                        <option value="Beyla">Beyla</option>
+                        <option value="Guéckédou">Guéckédou</option>
+                        <option value="Lola">Lola</option>
+                        <option value="Macenta">Macenta</option>
+                        <option value="Nzérékoré">Nzérékoré</option>
+                        <option value="Yomou">Yomou</option>
+                    </select>
+
+                    <label for="commune">Commune / Quartier</label>
+                    <input type="text" id="commune" name="commune" placeholder="Commune ou quartier (optionnel)" />
+
+                    <label for="telephone">Téléphone</label>
+                    <input type="tel" id="telephone" name="telephone" placeholder="622123456" required />
+
+                    <label for="competences">Compétences</label>
+                    <textarea id="competences" name="competences" rows="3" placeholder="Ex : installation électrique, dépannage" required></textarea>
+
+                    <label for="experience">Expérience</label>
+                    <textarea id="experience" name="experience" rows="3" placeholder="Ex : 5 ans dans le bâtiment" required></textarea>
+
+                    <label for="photo">Photo de profil (optionnel)</label>
+                    <input type="file" id="photo" name="photo" accept="image/*" />
+                    <img id="photo-preview" class="photo-preview hidden" alt="Aperçu de la photo" />
+
+                    <label for="portfolio">Portfolio chantier (optionnel, jusqu'à 3 images)</label>
+                    <input type="file" id="portfolio" name="portfolio" accept="image/*" multiple />
+                    <div id="portfolio-preview" class="portfolio-preview hidden"></div>
+
+                    <button type="submit" class="button">Enregistrer</button>
+                    <p class="success-message hidden">Ton profil a été créé avec succès. Il est visible dans la liste des ouvriers.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Réseaux Guinée</h3>
+                    <p>Connecter les talents locaux aux besoins de la communauté.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="ouvrier.html">S'inscrire comme ouvrier</a></li>
+                        <li><a href="client.html">Chercher un ouvrier</a></li>
+                        <li><a href="client.html#worker-grid">Voir tous les ouvriers</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>À propos</h4>
+                    <p>Projet réalisé par Sagno Marcel, étudiant en informatique L1.</p>
+                </div>
+            </div>
+            <p class="footer-bottom">© 2026 - Plateforme Réseaux Guinée.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

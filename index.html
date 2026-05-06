@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Résaux Guinée</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="nav">
+            <a href="index.html" class="logo">Réseaux Guinée</a>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="ouvrier.html">Ouvrier</a></li>
+                <li><a href="client.html">Client</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Bienvenue sur Réseaux Guinée</h1>
+            <p>Une plateforme pour connecter les ouvriers professionnels et les clients en Guinée.</p>
+            <div class="hero-actions">
+                <a href="ouvrier.html" class="button">Je suis ouvrier</a>
+                <a href="client.html" class="button button-secondary">Je suis client</a>
+                <a href="client.html#worker-grid" class="button button-secondary">Voir les ouvriers</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section about">
+            <div class="container">
+                <h2>À propos de moi</h2>
+                <p>Je suis Sagno Marcel étudiant en informatique L1 et je présente ici mon projet, mes compétences et ma motivation.</p>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Compétences :</h3>
+                        <p>Je maîtrise les langages de programmation web (HTML, CSS, JavaScript) et j'ai une solide compréhension des principes de design responsive.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Objectif :</h3>
+                        <p> J'ai créé ce site enfin d'aider les ouvriers professionnels qui ont des compétences et qui n'ont pas parfois les moyens de gagner beaucoup de se faire connaître sur l'étendue de la nation. je veux aussi aider les clients à trouver
+                            facilement des ouvriers professionnels pour leurs travaux, car la Guinée est un pays où les compétences sont nombreuses mais où l'accès à l'information reste limité.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2>Mon projet :</h2>
+                <p>Ce site présente une plateforme complète pour mettre en relation des ouvriers guinéens et des clients :</p>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <h3>1. Landing clair</h3>
+                        <p>Une page d’accueil avec deux routes distinctes : « Je suis ouvrier » et « Je suis client ».</p>
+                    </article>
+                    <article class="project-card">
+                        <h3>2. Parcours ouvrier</h3>
+                        <p>Une page dédiée pour l’inscription, la photo de profil, le portfolio chantier et l’expérience.</p>
+                    </article>
+                    <article class="project-card">
+                        <h3>3. Parcours client</h3>
+                        <p>Une page de recherche avec filtre par métier, région, préfecture et commune pour trouver un ouvrier.</p>
+                    </article>
+                    <article class="project-card">
+                        <h3>4. Recherche claire</h3>
+                        <p>Les ouvriers s’affichent avec leur métier, leur expérience et des photos de leurs chantiers.</p>
+                    </article>
+                    <article class="project-card">
+                        <h3>5. Utilisation facile</h3>
+                        <p>Le site est simple à utiliser, le formulaire est facile à remplir et il fonctionne bien sur mobile.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Vous pouvez laisser un message pour me contacter ou expliquer votre projet.</p>
+                <form id="contact-form">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required />
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="email@example.com" required />
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Votre message..."></textarea>
+
+                    <button type="submit" class="button">Envoyer</button>
+                    <p class="success-message hidden">Merci ! Votre message a bien été reçu.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Réseaux Guinée</h3>
+                    <p>Connecter les talents locaux aux besoins de la communauté.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="ouvrier.html">S'inscrire comme ouvrier</a></li>
+                        <li><a href="client.html">Chercher un ouvrier</a></li>
+                        <li><a href="client.html#worker-grid">Voir tous les ouvriers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>À propos</h4>
+                    <p>Projet réalisé par Sagno Marcel, étudiant en informatique L1.</p>
+                </div>
+            </div>
+            <p class="footer-bottom">© 2026 - Plateforme Réseaux Guinée.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
